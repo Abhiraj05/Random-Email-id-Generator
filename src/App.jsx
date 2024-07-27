@@ -27,7 +27,7 @@ function App() {
     <>
 
       <div id="container">
-        <h1 id='heading'>random email generator</h1>
+        <h1 id='heading'>random email id generator</h1>
         <div id="searchbox">
           <input
             placeholder="example@gmail.com"
