@@ -170,7 +170,7 @@ body {
     width: 50vw;
     height: 35px;
     padding-left: 18px;
-    color: rgb(76, 72, 72);
+    color: rgb(61, 61, 61);
     font-size: 13px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -195,11 +195,11 @@ body {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     text-transform: capitalize;
-    padding: 8px 18px 10px 18px;
+    padding: 10px 15px 10px 15px;
     background-color: aliceblue;
     border: 1px solid rgb(106, 106, 248);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13.5px;
     border-radius: 12px;
   }
   
@@ -208,12 +208,11 @@ body {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     text-transform: capitalize;
-    padding: 12px 18px 12px 18px;
-   
+    padding: 10px 15px 10px 15px;
     background-color: rgb(106, 106, 248);
     border: 1px solid aliceblue;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13.5px;
     border-radius: 12px;
   }
   
