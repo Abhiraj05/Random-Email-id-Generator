@@ -4,8 +4,8 @@ body {
 
 #container {
   text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 28vh;
+  margin-top: 25vh;
+  margin-bottom: 38vh;
 }
 
 #heading {
@@ -14,6 +14,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 50px;
+  font-weight: 900;
 }
 
 #btn {
@@ -21,14 +22,29 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-transform: capitalize;
-  padding: 15.8px 30px 16px 30px;
+  padding: 15px 30px 15px 30px;
   color: aliceblue;
-  border: 1px solid rgb(106, 106, 248);
   font-weight: 700;
   font-size: 15px;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
-  border: none;
+  border-top: 0.9px solid  rgb(106, 106, 248);
+  border-bottom: 0.9px solid  rgb(106, 106, 248);
+  border-right: 0.9px solid  rgb(106, 106, 248);
+  border-left: 1.5px solid rgb(106, 106, 248);
+}
+#btn:hover {
+  color: rgb(106, 106, 248);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: capitalize;
+  padding: 15px 30px 15px 30px;
+  background-color: aliceblue;
+  font-weight: 700;
+  font-size: 15px;
+  border-top: 1px solid rgb(106, 106, 248);
+  border-bottom: 1px solid rgb(106, 106, 248);
+  border-right: 1px solid rgb(106, 106, 248);
 }
 
 #inputbox {
@@ -37,7 +53,7 @@ body {
   border-top: 1.5px solid rgb(106, 106, 248);
   border-right: none;
   width: 25vw;
-  height: 6.6vh;
+  height: 46px;
   padding-left: 18px;
   color: rgb(76, 72, 72);
   font-size: 17px;
@@ -59,18 +75,6 @@ body {
   align-items: center;
 }
 
-#btn:hover {
-  color: rgb(106, 106, 248);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-transform: capitalize;
-  padding: 15.8px 30px 16px 30px;
-  background-color: rgb(54, 53, 53);
-  font-weight: 700;
-  font-size: 15px;
-  border: none;
-}
-
 #gen {
   color: rgb(106, 106, 248);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -85,7 +89,7 @@ body {
 }
 
 #gen:hover {
-  color:aliceblue;
+  color: aliceblue;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-transform: capitalize;
@@ -98,11 +102,11 @@ body {
 }
 
 #footer-text {
-color: aliceblue;
-font-family:monospace;
-font-weight: 600;
-text-align: center;
-font-size: 15px;
-text-transform: capitalize;
-}
+  color: rgb(106, 106, 248);
 
+  font-family: monospace;
+  font-weight: 600;
+  text-align: center;
+  font-size: 15px;
+  text-transform: capitalize;
+}
