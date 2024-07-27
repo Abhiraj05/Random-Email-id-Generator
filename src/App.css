@@ -110,3 +110,119 @@ body {
   font-size: 15px;
   text-transform: capitalize;
 }
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: aliceblue;
+  }
+  #container {
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 26vh;
+  }
+  
+  #heading {
+    color: rgb(106, 106, 248);
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  #btn {
+    background-color: rgb(106, 106, 248);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 15px 30px 15px 30px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: 0.9px solid  rgb(106, 106, 248);
+    border-bottom: 0.9px solid  rgb(106, 106, 248);
+    border-right: 0.9px solid  rgb(106, 106, 248);
+    border-left: 1.5px solid rgb(106, 106, 248);
+  }
+  #btn:hover {
+    color: rgb(106, 106, 248);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 15px 30px 15px 30px;
+    background-color: aliceblue;
+    font-weight: 700;
+    font-size: 15px;
+    border-top: 1px solid rgb(106, 106, 248);
+    border-bottom: 1px solid rgb(106, 106, 248);
+    border-right: 1px solid rgb(106, 106, 248);
+  }
+  
+  #inputbox {
+    border-bottom: 1.5px solid rgb(106, 106, 248);
+    border-left: 1.5px solid rgb(106, 106, 248);
+    border-top: 1.5px solid rgb(106, 106, 248);
+    border-right: none;
+    width: 25vw;
+    height: 46px;
+    padding-left: 18px;
+    color: rgb(76, 72, 72);
+    font-size: 17px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  
+  ::placeholder {
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(121, 120, 120);
+  }
+  
+  #searchbox {
+    margin-bottom: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #gen {
+    color: rgb(106, 106, 248);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 15px 30px 15px 30px;
+    background-color: aliceblue;
+    border: 1px solid rgb(106, 106, 248);
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 12px;
+  }
+  
+  #gen:hover {
+    color: aliceblue;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(106, 106, 248);
+    border: 1px solid aliceblue;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 12px;
+  }
+  
+  #footer-text {
+    color: rgb(106, 106, 248);
+  
+    font-family: monospace;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  
+}
